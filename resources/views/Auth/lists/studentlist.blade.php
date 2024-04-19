@@ -29,12 +29,14 @@
 <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending">Number</th>
 <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending">Address</th>
 </thead>
+<h1>hello</h1>
 </tbody>
  <tbody>
 
  @foreach($student as $index=>$students)
 
 <tr>
+  
     <td>{{$index+1}}</td>
     <td>
         <a href="#">
